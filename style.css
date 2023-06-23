@@ -71,15 +71,23 @@ a {
   border-radius: 50%;
   background-color: #90e051;
 }
+.burger-image {
+  position: relative;
+  padding-bottom: 46px;
+}
 .burger-image img {
-  transform: translateX(-170px) translateY(-650px);
+  position: absolute;
+  top: -5px;
+  left: -156px;
 }
 .small-circle {
   width: 151px;
   height: 151px;
   background-color: #90e051;
   border-radius: 50%;
-  transform: translateX(-80px) translateY(-1350px);
+  position: absolute;
+  top: -74px;
+  left: -91px;
 }
 .small-circle p {
   text-align: center;
@@ -94,6 +102,7 @@ a {
   gap: 153px;
   justify-content: center;
   text-align: center;
+  padding-top: 40px;
 }
 .food-icon p {
   font-size: 15.943px;
@@ -104,10 +113,19 @@ a {
 .food-icon h4 {
   padding-bottom: 93px;
 }
+.section2 {
+  position: relative;
+}
+.section2 .big_burger img {
+  position: absolute;
+  left: -250px;
+  top: 127px;
+}
 .big-card {
+  position: absolute;
+  left: 110px;
   padding: 39px 46px;
-  width: 1700px;
-  /* height: 769.478px; */
+  width: 1648px;
   border-radius: 71.067px;
   background: #90e051;
   box-shadow: 0px 17.766752243041992px 111.04219055175781px -22.208444595336914px
@@ -115,17 +133,19 @@ a {
 }
 .cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 33px;
 }
 .big-card input {
   border-radius: 20px;
   padding: 13px 42px;
   border: none;
-  margin-bottom: 52px;
+  margin-bottom: 25px;
 }
 .big-card .card {
+  margin-top: 40px;
   padding: 0px 19px;
-  width: 300px;
+  padding-bottom: 17px;
   border-radius: 23.39px;
   background: #fff;
   box-shadow: 0px 5.847557067871094px 36.54723358154297px -7.309447288513184px rgba(0, 0, 0, 0.25);
@@ -135,14 +155,14 @@ a {
 }
 .card p {
   padding-bottom: 15px;
-  font-size: 19.596px;
+  font-size: 14px;
 }
 .card h4 {
   padding-bottom: 15px;
 }
 .card span i {
   color: yellow;
-  font-size: 19.596px;
+  font-size: 14px;
 }
 .card .plus {
   width: 36px;
@@ -154,6 +174,7 @@ a {
 .card .plus i {
   color: #fff;
   font-size: 22px;
+  padding-left: -10px;
 }
 .narx1 {
   margin-top: 13px;
